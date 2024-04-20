@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+
+#cxz{
+    background-color: chocolate;
+    padding: 5px;
+    margin: 5px;
+    border: 6px solid darkolivegreen;
+    width: 300px;
+    display: inline-block;
+}
+
+#curdulad{
+    border: 3px solid royalblue;
+    background-color: brown;
+    padding: 5px;
+    margin: 5px;
+    height: 20px;
+    display: inline-block;
+}
+
+#rty{
+    border: 4px solid rgb(98, 6, 6);
+    background-color: darkblue;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+}
+
+#fre{
+    display: inline-block;
+    border: 4px solid greenyellow;
+    padding: 5px;
+    margin: 5px;
+    width: 45px;
+    background-color: gold;
+}

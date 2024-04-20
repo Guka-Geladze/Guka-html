@@ -1,0 +1,62 @@
+/*boxs css*/
+#guka{
+    background-color: red;
+}
+ 
+#nika{
+    background-color: aqua;
+    border: 4px solid gray;
+}
+
+#dato{
+    /*margin aris simagle da sigane ertad 30px an ramdensac dawer*/
+    margin: 30px;
+    border: 3px solid fuchsia;
+    background-color: chartreuse;
+}
+
+#gio{
+    padding: 15px;
+    background-color: aqua;
+    border: 5px solid rgb(128, 0, 58);
+}
+
+#hitler{
+    /*yvela artad*/
+    border: 5px solid gold;
+    background-color: cyan;
+    padding: 30px;
+    margin: 30px;
+}
+
+#roberti{
+    background-color: darkred;
+    border: 5px solid royalblue;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    /*padingi da mergini gansxvavadeba aertmanetisgan*/
+    /*padingi aris sida sivrce*/
+    /*margini aris gare sivrce*/
+    padding-top: 10px;
+    padding-right:  20px;
+    padding-left:  30px;
+    padding-bottom:  40px;
+}
+
+#tyemala{
+    height: 100px;
+    width: 200px;
+    border: 10px solid blanchedalmond;
+    margin: 10px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+#telegram{
+    border: 4px solid green;
+    width: 300px;
+    height: 200px;
+}
+

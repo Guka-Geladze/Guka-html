@@ -1,0 +1,31 @@
+#c1{
+    background-color: bisque;
+    width: 350px;
+    height: 490px;
+
+}
+
+.c2{
+    background-color: goldenrod;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 6px solid white;
+
+}
+
+h1{
+    padding-top: 50px;
+}
+
+#c4{
+    font-family: serif;
+    color: rgb(60, 55, 55);
+}
+
+#c9{
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+    inline-size: 70%;
+}

@@ -1,0 +1,47 @@
+#ol{
+    background-color: olivedrab;
+    height: 20px;
+    width: 30px;
+    padding: 3px;
+    margin: 4px;
+    color: rgb(139, 0, 0);
+    border: 3px solid rgb(0, 255, 0);
+    display: inline-block;
+    background-color: chocolate;
+}
+
+#rf{
+    border-radius: 10px;
+    border: 3px solid royalblue;
+    padding: 5pz;
+    width: fit-content;
+    color: indigo;
+    margin: 5px;
+    display: inline-block;
+    background-color: fuchsia;
+}
+
+
+#cvb{
+    border-radius: 10px;
+    border: 3px solid red;
+    width: fit-content;
+    padding: 1em;
+    margin: 5px;
+    background-color: darkturquoise;
+    color: darksalmon;
+}
+
+html{
+    font-size: 20px;
+   background-color: darkblue;
+}
+
+div{
+    font-size: 1,6em;
+    color: rosybrown;
+}
+ /*line-height nisnavs tekstis simagles da siganes*/
+p{
+    line-height: 30px;
+}

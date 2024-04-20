@@ -1,0 +1,24 @@
+div{
+    height: 500px;
+    font-size: 50px;
+    overflow: scroll;
+
+    background-image: url(https://vignette.wikia.nocookie.net/ultradragonball/images/2/2f/Ninza.png/revision/latest?cb=20120604215703), url(https://i.pinimg.com/originals/fc/01/28/fc01286ff2823be5703f1aa7fabad23a.jpg);
+    /* backgraund-size aketebs poroebis sisides da xomas pirveli pirver poroze axdens reagirebas meore meore p[otoze */
+    background-size: /*1*/ 150px auto, /*2*/ 150px auto;
+    background-repeat: no-repeat, repeat;
+    /* backgraund-postion aris poroebis poziciebi adgilebi sad unda gantavsdes */
+    /* top 250px aris maglidan 250px xolo right 150px aris marjvnidan 150px_it dasordes */
+    background-position: top 250px right 150px, bottom 100px center;
+    /* local=tovebs beckgraunds ukan da ayolebs body xolo fixed=acerebs naxats da ar ayoloebs sqrols */
+    background-attachment: local, fixed;
+    /* aq kide piricita ra */
+    background-attachment: fixed, local;
+    padding: 28px;
+    border: 10px dashed hotpink;
+    background-color: border-box;
+}
+
+body{
+    height: 200vh;
+}

@@ -1,0 +1,72 @@
+#rpg{
+    border-radius: 30px;
+    border: 5px solid royalblue;
+    padding: 1em;
+    margin: 5px;
+    width: fit-content;
+    width: 500px;
+    height: 500px;
+    /*asos zoma*/
+    font-size: 2em;
+    /*dasoreba teksteb soris*/
+    line-height: 60px;
+    background-color: firebrick;
+    color: coral;
+    overflow: scroll;
+    overflow-y: 30px;
+    overflow-x: 30px;
+    border: 4px solid rgba(91, 35, 28, 0.585);
+    overflow-x: scroll;
+
+}
+
+#soko{
+    display: inline-block;
+    background-color: rgba(47, 104, 79, 0.418);
+    border: 4px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 4px solid royalblue;
+    line-height: 40px;
+    color: aliceblue;
+
+}
+
+#prp{
+    display: inline-block;
+    border-radius: 10px;
+    border: 4px solid rosybrown;
+    color: cyan;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 35px;
+    background-color: deeppink;
+}
+
+#java{
+    display: inline-block;
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: rgb(23, 56, 128);
+}
+
+h1{
+    display: inline-block;
+    border: 3px solid rgba(208, 26, 26, 0.966);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: mediumaquamarine;
+}
+
+.skor{
+    height: 50em;
+    width: 30em;
+    background-color: black;
+}

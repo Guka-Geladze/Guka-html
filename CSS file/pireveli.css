@@ -1,0 +1,47 @@
+/*satesto css*/
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color: chocolate;
+    background-color: mediumvioletred;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+h3{
+    color: cyan;
+    background-color: azure;
+}
+
+a{
+    color: crimson;
+}
+
+div{
+    color: chartreuse;
+}
+
+h4{
+    color: aliceblue;
+}
+
+form{
+    color: cornflowerblue;
+}
+
+table{
+    color: aquamarine;
+    border: 3px;
+    background-color: brown;
+}
+
+#sandro{
+    color: rgb(185, 80, 255);
+    background-color: rgb(255, 0, 21);
+}
+

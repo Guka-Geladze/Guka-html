@@ -1,0 +1,124 @@
+#GUKA123{
+    border: 4px solid rgb(142, 85, 11);
+    color: rgba(255, 0, 0, 0.959);
+    background-color: rgb(32, 154, 214);
+    padding: 5px;
+    margin: 5px;
+     width: 20em;
+     border-radius: 14px;
+}
+
+#NIKA{
+    background-color: rgb(19, 186, 36);
+    border: 3px solid rgb(255, 0, 221);
+    color: rgb(244, 227, 1);
+    margin: 5px;
+    padding: 5px;
+    width: 900px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#fff{
+    background-color: darkcyan;
+    color: blanchedalmond;
+    margin: 5px;
+    padding: 5px;
+    /*fist-content aris dawerili kodis radiusis zomaze morgebuli amoklebs*/
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.mate{
+    /*max-content aketebs siganeze slis*/
+    width: max-content; 
+    /*1em 1 mravldeba 25 radgan font-saiz gvaq 25 eseigi 25 gaxdeba*/
+    padding: 1em;
+    /*font-size aris asos zrda simaglesi da sigrzesi*/
+    font-size: 25px;      
+    margin: 5px;
+    border-radius: 40px;
+    border: 3px solid rgb(255, 0, 221);
+    color: darkcyan;
+    background-color: darkblue;                                                 
+}
+
+.galaqsi{
+    /*roca font-size 1em arispadingi gadadis semdeg id da igebs font-sizes da imaze mravldeba 1em mravldeba 30px*/
+    font-size: 2em;
+    padding: 2em;
+    border: 5px;
+    border-radius:10px;
+    margin: 5px;
+    background-color: indigo;
+}
+
+#pvp{
+    font-size: 30px;
+    border: 4px solid gray;
+    border-radius: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#lol{
+    /*line-height aris dasoreba tekstebs soris marjvniv marcxniv*/
+    line-height: 40px;
+    /*5rlh is aketebs siganes zrdis cvemot zemot*/
+    width: 3rlh;
+    border-radius: 10px;
+    border: 4px solid rgb(12, 134, 186);
+    background-color: cornflowerblue;
+    padding: 5pz;
+    margin: 5px;
+    width: 1000px;
+    height: 100px;
+    color: brown;
+}
+
+#iaponia{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+}
+
+#wre{
+    background-color: black;
+    display: inline-block;
+    width: 200px;
+    height: 50%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#ovali{
+    background-color: rgb(234, 0, 0);
+    display: inline-block;
+    width: 200px;
+    height: 100vh;
+}
+
+#enemi{
+/* <length> values */
+width: 300px;
+width: 25em;
+
+/* <percentage> value */
+width: 75%;
+
+/* Keyword values */
+width: max-content;
+width: min-content;
+width: fit-content;
+width: fit-content(20em);
+width: auto;
+
+/* Global values */
+width: inherit;
+width: initial;
+width: revert;
+width: revert-layer;
+width: unset;
+}
+

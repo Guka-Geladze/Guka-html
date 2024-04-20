@@ -1,0 +1,19 @@
+#ფოტო{
+    border-radius: 10px;
+    height: fit-content;
+    height: 599px;
+    border: 3px solid rgb(255, 246, 228);
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(206, 198, 185);
+    border-width: 200p;
+}
+
+#სათაური{
+    border: 3px solid floralwhite;
+    margin: 5px;
+    padding: 5px;
+    background-color: beige;
+    height: fit-content;
+    height: 10px;
+}
