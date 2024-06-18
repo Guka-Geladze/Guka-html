@@ -1,0 +1,111 @@
+div,span{
+       /* ანუ რა არის normal flow არის ის ყველაფერი რომელიც რეალურად 
+    გავლილი გაქ რომ block ელემენტი იკავებენ მტლიან ჰორიზონტალურ ხაზს  
+    შესაბამისად მიყოლებიტ block ელემენტები განთავსება ვებსაიტზე იწვებს მატ ვერტილურ ღერძზე განთავსებას
+    inline ელემენტები ასეთი წესი რომ ველტიკალურ ღერძზე მათი padding margin border-რი 
+    მეზობლებს ვერ აჩოჩებენ ეს ხედება მხოლოდ ვერტილალურ ღერზზე ხოლო ჰორიზონტალურ 
+    ღერძზე ჩვეულებრივ რათქმაუნდა მეზობლებსაჩოჩებენ inline ელემენტებიც
+    ასევე inline ელემენტებზე დასამახსოვრებელია მათი ზომა არის ზუსტად იმდენი რამდენიც შიქთავს სჭირდება
+    ფიზიკურად width height ფროფერთიები მათზე არ მოქმედებენ და ვენ ასევე გვაქ 
+    inile-block ელემენთი რომელიცჩ წინა ორ წესს აუქმებე ანუ
+    inline-block ელემენთები არიან იგივე inline ელემენტები მარა მათზე მოქმედებს 
+    როგორც width da height ფროფერთიები ასევე მათი padding margin border ვერტილაკურ მეზობლებს აჩოცებენ*/
+    border: 3px dashed darkblue;
+    background-color: chocolate;
+    width: fit-content;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+/* poston: relativ; */
+.random{
+    border: 3px solid deeppink;
+    background-color: darkgrey;
+    width: 900px;
+    height: fit-content;
+    position: relative;
+}
+
+.raa{
+    border: 2px dashed gold;
+    background-color: cyan;
+    width: 900px;
+    height: fit-content;
+    position: relative;
+    top: 60px;
+   left: 50px;
+}
+
+.ratom{
+    background-color: blue;
+    border: 3px dashed green;
+    width: 900px;
+    height: fit-content;
+}
+
+.imitom{
+    border: 3px dashed violet;
+    background-color: chartreuse;
+    width: 900px;
+    height: fit-content;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.ranairad{
+    border: 3px dashed rgb(27, 20, 211);
+    background-color: rgb(123, 46, 31);
+    width: 900px;
+    height: fit-content;
+}
+
+.imnairad{
+    border: 3px dashed rgb(34, 109, 139);
+    background-color: rgb(182, 229, 15);
+    width: 900px;
+    height: fit-content;
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+}
+
+.join{
+    border: 3px dashed dodgerblue;
+    background-color: darkslateblue;
+    width: 900px;
+    height: fit-content;
+}
+
+.instal{
+    border: 3px dashed rgb(132, 0, 255);
+    background-color: darkturquoise;
+    width: 900px;
+    height: fit-content;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}
+
+.indecs{
+    border: 3px dashed rgb(132, 23, 103);
+    background-color: palevioletred;
+    width: 900px;
+    height: fit-content;
+}
+
+.gogl{
+    border: 3px dashed rgb(188, 240, 128);
+    background-color: chocolate;
+    width: 900px;
+    height: fit-content;
+    position: sticky;
+    top: 250px;
+    right: 40px;
+}
+
+body{
+    height: 5000vh;
+}

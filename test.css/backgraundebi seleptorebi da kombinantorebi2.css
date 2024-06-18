@@ -1,0 +1,58 @@
+.solo{
+    height: 500px;
+    width: fit-content;
+    overflow: scroll;
+    font-size: 20px;
+    background-image: url(https://4.bp.blogspot.com/-Mbhi4xghlw4/VFw23qposNI/AAAAAAAAUaw/m3vqqp4H9AY/s1600/Naruto-5.png), url(https://tse1.mm.bing.net/th?id=OIP.qL8Q3vfOznk9CEAmyjkjigHaDe&pid=Api&P=0&h=220);
+    background-position: center 70px, center;
+    background-repeat: no-repeat, repeat;
+    background-size: 300px, 200px;
+    background-attachment: local, fixed;
+}
+
+*{
+    color: rgb(43, 220, 217);
+}
+
+input.redbutton{
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.123);
+    border: 2px dashed rgba(255, 0, 0, 0.374);
+}
+
+input,button{
+    color: aliceblue;
+    border: 2px dashed rgba(4, 245, 28, 0.445);
+    background-color: rgba(55, 0, 255, 0.323);
+}
+
+input.greenbutton{
+    color: green;
+    background-color: rgba(0, 128, 0, 0.23);
+    border: 2px dashed rgba(0, 128, 0, 0.486);
+}
+
+input.goldbutton{
+    color: gold;
+    background-color: rgba(255, 217, 0, 0.249);
+    border: rgba(255, 217, 0, 0.27);
+}
+
+h2 ,h3, h4, h5, h6{
+    width: fit-content;
+    color: coral;
+    background-color: rgba(255, 127, 80, 0.255);
+    border: 3px dashed rgba(255, 127, 80, 0.418);
+}
+
+a[target]{
+    color: rgb(250, 0, 212);
+    background-color: rgba(255, 0, 230, 0.368);
+    border: 3px dashed rgba(255, 0, 195, 0.279);
+}
+
+a{
+    border: 2px dashed darkgrey;
+    color: rgb(20, 220, 23);
+    background-color: rgb(255, 0, 0);
+}

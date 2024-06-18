@@ -1,0 +1,66 @@
+/* ფიფქი ყველა html ელემენტზე მოქმედებს */
+*{
+    color: rgb(0, 0, 0);
+}
+
+/* ეს იმოქმედებს უველა ცლასზე მომელსა გაწერილი ექქნება redbutton 
+ და სხვებზეც ანალოგიურია  თუ არ აქ დაკონკრეტებული input.redbutton გამ შემტხვევაში მარტო inpuTebze იმოქმედებს*/
+.redbutton{
+    background-color: rgb(216, 21, 21);
+}
+
+.greenbutton{
+    background-color: green;
+}
+
+.bigbutton{
+    width: 100px;
+    height: 70px;
+}
+
+.smolbutton{
+    font-size: 8px;
+}
+
+  /* input,blackbutton მხოლოდ მოქმედებს ინპუტებზე  და არა სხვაზე  მაგალიტად <a> <div> <h1>....*/
+  input.blackbutton{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.489);
+   }
+
+/* input type=subbnit მოქმედებს მარტო რამდენიც გეწერება */
+ input[type=submit]{
+    color: rgb(242, 255, 0);
+}
+
+ a[target]{
+    background-color: rgba(255, 0, 255, 0.296);
+    color: fuchsia;
+    border: 2px dashed rgb(143, 174, 188);
+}
+
+ a[href="https://novatori.ge/"]{
+    background-color: rgba(0, 0, 255, 0.481);
+    border: 2px dashed rgba(81, 81, 255, 0.552);
+    color: blue;
+ }
+
+ /* გაერთიანებულლია და ორივე ეძლევა  fontis  xoma 20px*/
+ a, input{
+    font-size: 20px;
+ }
+
+  h1, h2, h3, h4, h5, h6{
+    color: chocolate;
+  } 
+
+   div span{
+    color: rgb(0, 34, 255);
+    width: fit-content;
+    border: 3px dashed cadetblue;
+   }
+
+   /* font-weight უფრო ამუქებს ტეკსტს */
+   div > span{
+    font-weight: bold;
+   }

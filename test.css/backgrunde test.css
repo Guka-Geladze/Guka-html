@@ -1,0 +1,32 @@
+.tnt{
+    font-size: 20px;
+    width: 1500px;
+    height: 550px;
+    border: 10px dashed black;
+    margin: 5px;
+    margin: 5px;
+    background-image: url(https://4.bp.blogspot.com/-Mbhi4xghlw4/VFw23qposNI/AAAAAAAAUaw/m3vqqp4H9AY/s1600/Naruto-5.png), url(https://webstockreview.net/images/cool-clipart-naruto-5.png), url(https://tse1.mm.bing.net/th?id=OIP.QTMD-mnaS9ASLfczUreLrQHaCQ&pid=Api&P=0&h=220);
+    background-size: 100px, 100px;
+    background-position: right 10px, center 110px;
+    background-attachment: local,fixed,fixed;
+    background-repeat: no-repeat, no-repeat,repeat;
+    overflow: scroll;
+}
+
+.srr{
+    background-image: url(https://www.jardineriaon.com/wp-content/uploads/2018/09/hojas-del-potos-830x553.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 10px;
+
+    border: 4px dashed rgb(0, 0, 0);
+    width: 140px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+}
+
+body{
+    height: 500vh;
+}

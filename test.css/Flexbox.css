@@ -1,0 +1,143 @@
+div,span{
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgba(30, 5, 255, 0.585);
+}
+
+.inline-blok{
+    display: inline-block;
+}
+
+/* all: unset wertikalurad gavlebul xazs aqrobs eseigi width: fit-content is msgavsia  */
+.flexconteiner{
+    all: unset;
+    /* display: flex siganeze wevs yvelas yvelas */
+    display: flex;
+}
+
+.flex{
+    /* yvela scade flex-directionidan OK */
+    all: unset;
+    display: flex;
+    /* flex-direction: column; display: block; */
+    /* flex-direction: column-reverse; piriqit ganalagebs zemodan qvemot cifrebs */
+    /* flex-direction: row; es marcxnidan marjvnin normaluria */
+    /* flex-direction: row-reverse; marqvnidan marcxniv alagebs ciprebs am semtxvevasi */
+    flex-direction: column;
+}
+
+.flexblock > * {
+    width: 200px;
+    height: 50px;
+}
+
+.flexblock{
+    all: unset;
+    display: flex;
+    /* flex-wrep: wrep aketeb tavis svilebs zemot qvemot 
+    marjvniv marcvni gadaqvs rodesac konteiners vapataravebs an vadidebt */
+    flex-wrap: wrap;
+}
+
+.flext1{
+    /* flex-flow segizlia yvela scado */
+    display: flex;
+    /* flex-flow: row-reverse wrap-reverse; */
+    /* flex-flow: column wrap; */
+    flex-flow: column-reverse;
+    /* flex-flow: row nowrap; */
+    height: 250px;
+    width: 250px;
+}
+
+.flex2{
+    /* yvela divsi myop nawers centrsi 
+    isvris ara marto divis yvelas spanisac da ase semdeg */
+    text-align: center;
+    display: flex;
+}
+
+.flex2 > *{
+    width: 250px;
+    height: 250px;
+}
+
+.fix3{
+    /*  justify-content yvela scadet gaige yvelaaaa */
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.fix3 > *{
+    width: 50px;
+    height: 100px;
+}
+
+.fix4{
+    /* yvela  align-items: mosinje */
+    all: unset;
+    background-color: cornflowerblue;
+    display: flex;
+    /* flex-wrap: wrap; xolo es ara aris  align-items: es aris flex-wrap: gaige es gegizia gamorto da carto yvela stvadasxva  */
+    height: 600px;
+    /* align-items: stretch; */
+    /* align-items: baseline; reaqcia araq imitom rom yvela aitemi erti xomisa */
+    /* align-items: center; */
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.fix4 > *{
+    width: 200px;
+}
+
+.flex5{
+    all: unset;
+    background-color: coral;
+    display: flex;
+    height: 480px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex5 > * {
+    width: 200px;
+}
+
+.flex6{
+    all: unset;
+    background-color: rgba(66, 121, 10, 0.575);
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    align-content: space-around;
+
+}
+
+.flex6 > * {
+    width: 200px;
+}
+
+.flex7{
+    all: unset;
+    background-color: cornflowerblue;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex7 > * {
+    flex-basis: 90px;
+    /* flex-grow: 1; adidebs */
+    /* flex-shrink: 1; apataravebs */
+}

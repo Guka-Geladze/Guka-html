@@ -1,0 +1,28 @@
+body{
+    color: rgb(255, 106, 0);
+}
+
+.org1 a{
+    color: inherit;
+}
+
+.org2 a{
+    color: initial;
+}
+
+.org3 a{
+    color: unset;
+}
+
+div{
+    border: 3px dashed rgb(255, 119, 0);
+    background-color: rgb(0, 255, 34);
+}
+
+.rest{
+    all: unset;
+}
+
+h3{
+    color: red !important;
+}

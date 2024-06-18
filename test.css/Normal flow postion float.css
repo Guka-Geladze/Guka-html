@@ -1,0 +1,124 @@
+div,span{
+    /* ანუ რა არის normal flow არის ის ყველაფერი რომელიც რეალურად 
+    გავლილი გაქ რომ block ელემენტი იკავებენ მტლიან ჰორიზონტალურ ხაზს  
+    შესაბამისად მიყოლებიტ block ელემენტები განთავსება ვებსაიტზე იწვებს მატ ვერტილურ ღერძზე განთავსებას
+    inline ელემენტები ასეთი წესი რომ ველტიკალურ ღერძზე მათი padding margin border-რი 
+    მეზობლებს ვერ აჩოჩებენ ეს ხედება მხოლოდ ვერტილალურ ღერზზე ხოლო ჰორიზონტალურ 
+    ღერძზე ჩვეულებრივ რათქმაუნდა მეზობლებსაჩოჩებენ inline ელემენტებიც
+    ასევე inline ელემენტებზე დასამახსოვრებელია მათი ზომა არის ზუსტად იმდენი რამდენიც შიქთავს სჭირდება
+    ფიზიკურად width height ფროფერთიები მათზე არ მოქმედებენ და ვენ ასევე გვაქ 
+    inile-block ელემენთი რომელიცჩ წინა ორ წესს აუქმებე ანუ
+    inline-block ელემენთები არიან იგივე inline ელემენტები მარა მათზე მოქმედებს 
+    როგორც width da height ფროფერთიები ასევე მათი padding margin border ვერტილაკურ მეზობლებს აჩოცებენ*/
+    background-color: rgb(255, 121, 72);
+    border: 3px solid rgb(197, 24, 24);
+    padding: 10px; /* marginze, borderze */
+    width: 20px;/* heigthzec */
+}
+
+.inline-blok{
+        /* display: inline-block აკეთებს ახალ ხაზზე აგარ გადადის */
+    display: inline-block;
+}
+
+.dd2{
+    width: 900px;
+    height: fit-content;
+    border: 3px dashed lightcoral !important;
+    background-color: darkseagreen !important;
+}
+
+.r3{
+    width: 900px;
+    height: fit-content;
+    border: 4px solid gold;
+    background-color: coral;
+    /* position: relative ეს აკეთებს პოზიციებს თუ საითკენ უნდა წავიდეს ელემენტი */
+    /* position: relative ადგილს არ თმობსს */
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.fr{
+    width: 900px;
+    height: fit-content;
+    border: 3px dashed rgb(6, 158, 196);
+    background-color: magenta;
+}
+
+.GGGGGG{
+    width: 900px;
+    height: fit-content;
+    background-color: rgb(0, 13, 255);
+    border: 4px solid firebrick;
+     /* position: absolut; ეს აკეთებს პოზიციებს თუ საითკენ უნდა წავიდეს ელემენტი */
+    /* position: absolut; ეს არ იკავებს ადგილს */
+    position: absolute;
+    top:  860px;
+    left: 70px;
+}
+
+
+.ds{
+    width: 900px;
+    height: fit-content;
+    border: 3px dashed rgb(0, 255, 0);
+    background-color: darkturquoise;
+    position: relative;
+}
+
+.JJJ{
+    width: 900px;
+    height: fit-content;
+    border: 3px solid rgb(255, 225, 0);
+    background-color: rgb(255, 106, 106);
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+}
+
+
+
+.sa{
+    width: 900px;
+    height: fit-content;
+    border: 3px dashed forestgreen;
+    background-color: rgb(5, 5, 193);
+
+}
+
+.dre{
+    width: 900px;
+    height: fit-content;
+    background-color: rgb(103, 136, 170);
+    border: 3px solid rgb(0, 172, 0);
+    /* fixed ეკრანს არ ცილდება სულ ჩანს ერთ ადგილას */
+    /* fixed არიკავს ადგილს ესეც */
+    position: fixed;
+    top: 50px;
+    left: 60px;
+}
+
+.dsa{
+    width: 900px;
+    height: fit-content;
+    border: 3px dashed forestgreen;
+    background-color: rgb(0, 251, 255);
+}
+
+.fds{
+    width: 900px;
+    height: fit-content;
+    border: 3px dashed rgb(196, 48, 173);
+    background-color: rgb(205, 110, 22);
+    /* sticky ის სანამ არ გამოჩნდება არ გამოძრავდება ის მოძრაობს ქვემოტ  ჩაწევის შემდეგ ჩასქროლვის */
+    /* sticky ადგილს იკავაებს */
+    position: sticky;
+    top: 200px;
+    left: 10px;
+}
+
+body{
+    height: 1000vh;
+}

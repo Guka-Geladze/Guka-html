@@ -1,0 +1,33 @@
+body{
+    color: rgb(159, 80, 255);
+}
+
+.d1 a{
+    color: inherit;
+}
+
+.d2 a{
+    color: initial;
+}
+
+.d3 a{
+    color: unset;
+}
+
+.d4{
+    border: 3px dashed royalblue;
+    background-color: crimson;
+}
+
+.d5{
+    all: unset;
+}
+
+h1{
+    color: rgb(0, 254, 85) !important;
+}
+
+.d6{
+    border: 3px dashed grey;
+    width: fit-content;
+}

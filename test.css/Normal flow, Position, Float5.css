@@ -1,0 +1,91 @@
+div,span{
+    border: 2px dashed blueviolet;
+    background-color: darkgoldenrod;
+    width: fit-content;
+}
+/* divplay: inile-blok divi agar gadadis axal xazze */
+.displei-blok{
+    display: inline-block;
+
+}
+
+.skami{
+    border: 2px dashed fuchsia;
+    background-color: chocolate;
+    width: fit-content;
+}
+
+.pomidori{
+    border: 2px dashed rgb(57, 0, 100);
+    background-color: lawngreen;
+    width: fit-content;
+    position: relative;
+    top: 30px;
+    right: 40px;
+}
+
+.fff{
+    border: 2px dashed black;
+    background-color: crimson;
+    width: fit-content;
+    position: relative
+}
+
+.RRR{
+    width: fit-content;
+    border: 2px dashed blue;
+    background-color: darkcyan;
+    position: relative;
+    left: 30px;
+    height: 50px;
+}
+
+.balisi{
+    border: 2px dashed violet;
+    background-color: aquamarine;
+    width: fit-content;
+}
+
+.mdivani{
+    border: 2px dashed gold;
+    background-color: brown;
+    width: fit-content;
+    position: absolute;
+    top: 1050px;
+    right: 40px;
+}
+
+.HAVIT{
+    border: 2px dashed greenyellow;
+    background-color: deeppink;
+    width: fit-content;
+}
+
+.aliansi{
+    border: 2px dashed firebrick;
+    background-color: chocolate;
+    width: fit-content;
+    position: sticky;
+    top: 300px;
+    left: 10px;
+}
+
+.aibga{
+    border: 2px dashed violet;
+    background-color: blueviolet;
+    width: fit-content; 
+}
+
+.sofeli{
+    border: 2px dashed saddlebrown;
+    background-color: coral;
+    width: 500px;
+    height: 250px;
+    position: fixed;
+    right: 300px;
+    top: 10px;
+}
+
+body{
+    height: 500vh;
+}

@@ -1,0 +1,32 @@
+body{
+    color: rgb(211, 18, 18);
+}
+
+.er1 a{
+    color: inherit;
+}
+
+.or2 a{
+    color: initial;
+}
+
+.sam3 a{
+    color: unset;
+}
+
+.aqstilebi{
+    background-color: coral;
+    border: 3px dashed fuchsia;
+}
+
+.araqstilebi{
+    color: unset;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: rgb(251, 255, 0) !important;
+}

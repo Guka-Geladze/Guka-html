@@ -7,9 +7,9 @@
     overflow: scroll;
     background-image: url(http://fc08.deviantart.net/fs71/f/2013/228/6/c/png_haruno_sakura_by_marcinha20-d6ifsz8.png), url(https://logolook.net/wp-content/uploads/2021/07/Naruto-Logo.png),  url(https://www.pngkey.com/png/full/556-5562381_open-naruto-uzumaki-logo.png), url(http://wallpapercave.com/wp/yFk2QjB.png);
     background-size: 150px, 150px, 90px;
-    background-position: center 200px, center 0px, right 0px;
+    background-position: center 200px, center 5px, left 0px;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-    background-attachment: ;
+    background-attachment: fixed, local, local;
 }
 
 .tavi{
@@ -18,4 +18,8 @@
     width: 100px;
     margin: 5px;
     padding: 5px;
+}
+
+body{
+    height: 500vh;
 }
