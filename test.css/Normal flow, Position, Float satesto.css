@@ -1,0 +1,48 @@
+div, span{
+    background-color: rgba(0, 13, 255, 0.29);
+    border: 3px dashed rgba(12, 11, 11, 0.574);
+    width: 700px;
+}
+
+.inlineblok{
+    display: inline-block;
+}
+
+#postiion{
+    background-color: aquamarine;
+    position: relative;
+    top: 100px;
+    right: 30px;
+}
+
+#postiion1{
+    background-color: rgb(145, 13, 143);
+    position: absolute;
+    top: 900px;
+    left: 30px;
+}
+
+#postiion2{
+    background-color: blanchedalmond;
+    position: relative;
+    top: 90px;
+    left: 30px;
+}
+
+.postion{
+    position: relative;
+}
+
+#postiion4{
+    background-color: lightcoral;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 50px;
+}
+
+#postiion6{
+    background-color: hotpink;
+    position: sticky;
+    top: 20px;
+}

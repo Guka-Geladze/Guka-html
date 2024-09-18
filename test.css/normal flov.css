@@ -1,0 +1,9 @@
+div, span{
+    background-color: darkviolet;
+    border: 3px dashed;
+
+}
+
+.inline{
+    display: inline-block;
+}

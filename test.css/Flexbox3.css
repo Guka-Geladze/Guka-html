@@ -1,0 +1,133 @@
+div,span{
+    border: 2px dashed goldenrod;
+    background-color: cyan;
+}
+
+.inline-blok{
+    display: inline-block;
+}
+
+.flex1{
+    /* all: unset; ukana beckgraund aqrobs zedmets sadac ar aris sityvebi dawerili */
+    all: unset;
+    /* display: flex siganeze wevs yvelas da yvelawers */
+    display: flex;
+}
+
+.flex2{
+    all: unset;
+    display: flex;
+    /* flex-direction: column; display: block; vist iqceva */
+    /* flex-direction: column-reverse; ciprebs qvemodan zemot klebadobis mixedvit lagdeba ani 123456789 cvemodan zemot */
+    /* flex-direction: row; standartuli porma marcxniva 123456789 */
+    /* flex-direction: row-reverse; marjvena mxares gadaq div_i  da tan 987654321 sapirispirod */
+    flex-direction: column-reverse;
+}
+
+.flex3 > *{
+    width: 200px;
+    height: 50px;
+}
+
+.flex3{
+    all: unset;
+    display: flex;
+    /* flex-wrap: wrap; brauzeris dapataravebastan ertad misi svilebic pataravdeba */
+    flex-wrap: wrap;
+}
+
+.flex4{
+    display: flex;
+     /* flex-flow: row-reverse wrap-reverse; marqniv ogont tavis konteinersi eteba da 987654321 ase lagdena  */
+     /* flex-flow: column wrap; zemodan cvemot123456789 alagebs */
+     /* flex-flow: column-reverse; cvemodan zemot alagebs ciprebs 123456789 */
+     /* flex-flow: row-reverse; marqnidan marcxnidan 987654321 alagebda da marqniv gadaq bolomde */
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+}
+
+.flex5{
+    text-align: center;
+    display: flex;
+}
+
+.flex5 > *{
+    width: 250px;
+    height: 250px;
+}
+
+.flex6{
+    display: flex;
+    /* justify-content: flex-end; marqniv alagebs 123456789 ase */
+    /* justify-content: flex-start; standartuli porma da marcxniv rceba123456789 */
+    /* justify-content: center; centrsi agdens 123456789 */
+    /* justify-content: space-between; anaweverebs magram kutxebs exeba */
+    /* justify-content: space-evenly; anawevrebs magram kutxebs ar exeba */
+    justify-content: space-evenly
+}
+
+.flex7{
+    all: unset;
+    background-color: rgb(154, 126, 15);
+    display: flex;
+    /* flex-wrap: wrap;  xolo es ara aris  align-items: es aris flex-wrap: gaige es gegizia gamorto da carto yvela stvadasxva  */
+    /* flex-wrap: wrap;  ro seurio align-items centrsi gadayris yvelas da danawevrebs zemot cvemot da svasic */
+     height: 600px;
+     /* align-items: stretch; mtlian divs ikavs 123456789 */
+     align-items: baseline;
+     /* align-items: center; centrsi gadaqv 123456789 */
+     /* align-items: flex-start; */
+     justify-content: space-evenly;
+}
+
+.flex7 > *{
+    width: 200px;
+}
+
+.flex8{
+    all: unset;
+    background-color: rgb(99, 152, 19);
+    display: flex;
+    height: 480px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex8 > *{
+    width: 200px;
+}
+
+.flex9{
+    all: unset;
+    background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* align-content: flex-start; zemot arian da akrobian aermanets */
+   /* align-content: flex-end; cvemot camodis yvela divi magram ekroba ertmanets */
+    /* align-content: center; centrsi arian da ekrobian ertmanets */
+    /* align-content: space-between; ar ekrobian ertmanets da amastanave arc boxsis gverdebs */
+    /* align-content: space-around; */
+}
+
+.flex9 > *{
+    width: 200px;
+}
+
+.felx10{
+    all: unset;
+    background-color: rgb(30, 255, 206);
+    display: flex;
+    width: 600px;
+    align-items: flex-start;
+}
+
+.flex10 > *{
+    /* flex-basis: 90px; */
+        /* flex-grow: 1; */
+    flex-shrink: 1;
+}
